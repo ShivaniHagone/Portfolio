@@ -1,0 +1,35 @@
+.footer{
+  background-image: linear-gradient(rgb(0, 10, 12),rgba(37, 36, 36, 0.774));
+  height: 120px;
+}
+
+.footer-nav{
+    text-align: center;
+    padding-top: 10px ;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+    column-gap: 25px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    /* transition: color 0.3s; */
+  }
+
+  .hr{
+    color: whitesmoke
+  }
+
+  .copyright{
+    color: whitesmoke;
+  }
+  
+  .footer-links a:hover {
+    color: #5bc2eb;
+  }

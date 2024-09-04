@@ -1,0 +1,68 @@
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+    padding: 10px;
+} 
+.col-10{
+    background-color:rgba(223, 242, 246, 0.795) ;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(2, 102, 102);
+    
+}
+
+.sub-block{
+    padding: 10px;
+}
+
+.sub-block label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1px;
+    margin: 5px;
+   }
+
+   .label{
+    animation: fade 3s ease-in-out;
+    animation-iteration-count: 1;
+   }
+
+@keyframes fade {
+    from {
+      opacity: 0;
+      display: none;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      text-shadow: 2px 3px 8px rgb(50, 100, 103)
+      
+    }
+  }
+
+  
+  
+
+.sub-block input{
+    background-color: rgb(226, 228, 229) ; 
+    box-shadow: 0px 0px 10px 3px rgb(50, 100, 103);
+    border: 1px solid black;
+}
+
+.sub-block textarea{
+    background-color: rgb(226, 228, 229) ; 
+    box-shadow: 0px 0px 10px 3px rgb(50, 100, 103);
+    border: 1px solid black;
+}
+
+.button{
+    border: 1px solid rgb(26, 25, 25);
+    border-radius: 7px;
+    background-color: rgb(226, 228, 229) ; 
+}
+
+.button:hover{
+    box-shadow: 0px 0px 10px 3px rgb(50, 100, 103);
+}

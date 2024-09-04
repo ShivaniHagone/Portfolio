@@ -1,0 +1,46 @@
+  .skillbar{
+    padding: 1px;
+    border-radius: 20px; 
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 8px 5px 5px rgba(22, 22, 22, 0.5);
+    &::before{
+      content:  attr(data-skill); 
+      display: inline-block;
+      padding: 5px 0 5px 10px;
+      border-radius: inherit;
+      animation: load 5s 3 alternate ;
+    } 
+  
+    &.learning::before{
+      width: calc(20%);
+      background: #9ac4e9;
+    }
+    &.basic::before{
+      width: calc(40%);
+      background: #71A8D9;
+    }
+    &.intermediate::before{
+      width: calc(55%);
+      background: #3981BF;
+    }
+    &.advanced::before{
+      width: calc(75%);
+      background: #175a93;
+    }
+    &.expert::before{
+      width: calc(90%);
+      background: #163A59;
+    }
+  }  
+
+  @keyframes load{
+    from {
+      width: 10%
+    }
+  }
+ 
+  
